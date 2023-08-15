@@ -55,12 +55,12 @@ for j in range (len(lista)):
         e += 1
     elif(g == 6):
         f += 1
-a = a*100/50
-b = b*100/50
-c = c*100/50
-d = d*100/50
-e = e*100/50
-f = f*100/50
+a = a*100/(len(lista))
+b = b*100/(len(lista))
+c = c*100/(len(lista))
+d = d*100/(len(lista))
+e = e*100/(len(lista))
+f = f*100/(len(lista))
 print("Valores : um {}%, dois {}% , três {}% , quatro {}% , cinco {}% , seis {}%".format(a,b,c,d,e,f))'''
 
 '''#Questão3
